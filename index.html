@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>「ONE · 一个」</title>
+	<link rel="stylesheet" type="text/css" href="one.css">
+    <link rel="shortcut icon" href="image/one.ico">
+</head>
+<body onload="autoTabStart()">
+	<div class="wrapper" >
+		<div class="header">
+			<a href="http://wufazhuce.com/" class="index-logo"></a>
+			<ul>
+				<li class="navigation"><a href="http://wufazhuce.org/">谈谈</a></li>
+				<li class="navigation"><a href="http://hanhanbook.taobao.com/?v=1">产品</a></li>
+				<li class="navigation"><a href="http://wufazhuce.com/noticias">情报</a></li>
+				<li class="navigation"><a href="http://www.wufazhuce.com/one">一个</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="cont_left">
+				<div class="cont_left_top" onmouseover="arrmover()" onmouseout="arrmout()"> 
+					<div id="focus-arr">
+						<a class="arr-left" onclick="move(false)"></a>
+						<a class="arr-right" onclick="move(true)"></a>
+					</div>
+					<ul id="focus-cont1">
+						<li class="first-pic">
+							<img src="image/pic1.jpg">
+							<p class="pic-from">若我老无所依 摄影/宇华在苏格兰</p>
+							<div class="logo-date">
+								<p class="pic-number">VOL.811</p>
+								<p class="date-day">27</p>
+								<p class="date-year">DEC 2014</p>
+							</div>
+							<p class="pic-paragraph">我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。我尽可能不去缅怀往事，因为来时的路不可能回头。我当心地去爱别人，因为比较不会泛滥。我爱哭的时候便哭，想笑的时候便笑，只要这一切出于自然。 from 《送你一匹马》</p>
+							
+						</li>
+						<li >
+							<img src="image/pic2.jpg" >
+							<p class="pic-from">秋天 绘图/卜粒</p>
+							<div class="logo-date">
+								<p class="pic-number">VOL.810</p>
+								<p class="date-day">26</p>
+								<p class="date-year">DEC 2014</p>
+							</div>
+							<p class="pic-paragraph">我只愿蓬勃生活在此时此刻，无所谓去哪，无所谓见谁，那些我将要去的地方，都是我从未谋面的故乡；那些我将要见的人，都会成为我的朋友。我不能选择怎么生，怎么死，但我能决定怎么爱，怎么活。from《黄金时代》</p>
+						</li>
+						<li >
+							<img src="image/pic3.jpg">
+							<p class="pic-from">愿望树 绘图/绘静者</p>
+							<div class="logo-date">
+								<p class="pic-number">VOL.809</p>
+								<p class="date-day">25</p>
+								<p class="date-year">DEC 2014</p>
+							</div>
+							<p class="pic-paragraph">愿生活可以如诗般自由，吃想吃的饭，见想见的人，看喜欢的风景，做可以做的事。心不老，有人一起胡闹，你还在，我依然。by 张皓宸</p>
+						</li>
+						<li>
+							<img src="image/pic4.jpg">
+							<p class="pic-from">狂欢是一群人的孤单 绘图/路人玎</p>
+							<div class="logo-date">
+								<p class="pic-number">VOL.808</p>
+								<p class="date-day">24</p>
+								<p class="date-year">DEC 2014</p>
+							</div>
+							<p class="pic-paragraph">人世就是这样，会静静地突然想到忽略了极熟的东西。我有个朋友一天忽然说，好久没有吃醋了，当即到小铺里买了一瓶山西老陈醋，坐在街边喝，喝得眼泪流出来。by 阿城</p>
+						</li>
+					</ul>
+					<ol id="focus_nav">
+						<li id="nav1"></li>
+						<li id="nav2"></li>
+						<li id="nav3"></li>
+						<li id="nav4"></li>
+					</ol>
+				</div>
+				<div class="cont_left_bottom">
+					<div id="article">
+						<h2 class="blue-title"><a href="http://www.wufazhuce.com/one">ONE 文章</a></h2>
+						<div class="corriente">
+							<p class="one-tutio">VOL.766</p>
+                            <p class="one-articulo-tutio">
+                            	<a href="http://wufazhuce.com/one/vol.766#articulo">姐姐与少年<small>  -飞飞&王萌</small></a>
+                            </p>
+                        </div>
+                        <ul class="list-style">
+                        	<li class="list-unstyle">
+                        		<span>VOL.765</span>
+                                <a href="http://wufazhuce.com/one/vol.765#articulo">最浪漫的事<small> -方悄悄</small></a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.764</span>
+                                <a href="http://wufazhuce.com/one/vol.764#articulo">少女的祈祷<small> -郑执</small></a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.763</span>
+                                <a href="http://wufazhuce.com/one/vol.763#articulo">爱情故事<small> -苏更生</small></a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.762</span>
+                                <a href="http://wufazhuce.com/one/vol.762#articulo">最后一个女朋友<small> -马叛</small></a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.761</span>
+                                <a href="http://wufazhuce.com/one/vol.761#articulo">后妈<small> -方慧</small></a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.760</span>
+                                <a href="http://wufazhuce.com/one/vol.760#articulo">食物<small> -李致</small></a>
+                            </li>
+                        </ul>
+					</div>
+					<div id="question">
+						<h2 class="blue-title"><a href="http://www.wufazhuce.com/one">ONE 问题</a></h2>
+						<div class="corriente">
+							<p class="one-tutio">VOL.766</p>
+                            <p class="one-articulo-tutio">
+                            	<a href="http://wufazhuce.com/one/vol.766#cuestion">是不是该带父母一起旅行？</a>
+                            </p>
+                        </div>
+                        <ul class="list-style">
+                            <li class="list-unstyle">
+                            	<span>VOL.765</span>
+                                <a href="http://wufazhuce.com/one/vol.765#cuestion">为什么跑马拉松？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.764</span>
+                                <a href="http://wufazhuce.com/one/vol.764#cuestion">如何克服觉得自己让父母失望的内疚？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.763</span>
+                                <a href="http://wufazhuce.com/one/vol.763#cuestion">“也是醉了”微妙何在？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.762</span>
+                                <a href="http://wufazhuce.com/one/vol.762#cuestion">如何在音乐界正确装逼？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.761</span>
+                                <a href="http://wufazhuce.com/one/vol.761#cuestion">如何有效的安慰刚刚分手的人？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span>VOL.760</span>
+                                <a href="http://wufazhuce.com/one/vol.760#articulo">死之将至的感觉是什么样？</a>
+                            </li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="cont_right">
+				<div class="cont_right_left">
+					<div id="news">
+						<h2 class="grey-title"><a href="http://www.wufazhuce.com/noticias">ONE 情报</a></h2>
+                        <ul class="list-style">
+                        	<li class="list-unstyle">
+                        		<span class="date">14-08-18</span>
+                                <a class="blue-link"href="http://wufazhuce.com/noticias/34">《不散的宴席》上海文艺书展分享会</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="date">14-08-04</span>
+                                <a class="blue-link" href="http://wufazhuce.com/noticias/33">《不散的宴席》贵阳文艺分享会</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="date">14-07-29</span>
+                                <a class="blue-link" href="http://wufazhuce.com/noticias/32">「一个」书系第四辑《不散的宴席》上海首发</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="talk">
+                       <h2 class="grey-title"><a href="http://www.wufazhuce.com/noticias">ONE 谈谈</a></h2>
+                       <ul class="list-style">
+                            <li class="list-unstyle">
+                                <span class="rango123">1</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/27900/one-一个-vol-638">「ONE · 一个」VOL.638</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango123">2</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/2832/">韩寒：欢迎大家</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango123">3</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/30/管理员-版主#latest">管理员&版主</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango">4</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/36/你最喜欢-one-一个-哪位作者#latest">你最喜欢「ONE · 一个」哪位作者？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango">5</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/9/论坛管理规章制度规定-新手必看#latest">论坛管理规章制度规定（新手必看)</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango">6</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/comment/165640/#Comment_165640">爱一个人能卑微到什么程度？</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango">7</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/2979/一人说一句对你感触至深的歌词吧-可以写">一人说一句感触至深的歌词吧</a>
+                            </li>
+                            <li class="list-unstyle">
+                                <span class="rango">8</span>
+                                <a class="blue-link" href="http://wufazhuce.org/discussion/6848/我会讲英语-波兰语-西班牙语#latest">我会讲英语，波兰语，西班牙语~</a>
+                            </li>
+                       </ul>
+                    </div>
+                    <div id="issue">
+                        <h2 class="blue-title"><a href="http://www.wufazhuce.com/one">ONE 东西</a></h2>
+                        <div class="corriente">
+                            <img src="image/issue2.jpg"/>
+                            <p>
+                                <a href="http://wufazhuce.com/one/vol.811#cosas">陈湛新书《南极姑娘》</a> <!--如何居中?-->
+                            </p>
+                        </div>   
+                    </div>
+				</div>
+
+				<div class="cont_right_right">
+                    <div id="product">
+                        <h2 class="grey-title"><a href="http://hanhanbook.taobao.com/?v=1">ONE 产品</a></h2>
+                        <div id="focus-arr2">
+                            <a class="arr-left" onclick="move(false1)"></a>
+                            <a class="arr-right" onclick="move(true1)"></a>
+                        </div>
+                        <ul id="focus-cont2">
+                             <li class="first-pic">
+                               <a href="http://hanhanbook.taobao.com/category-757091697.htm?v=1"><img src="image/product.jpg"/></a>
+                             </li>
+                             <li>
+                               <a href="http://hanhanbook.taobao.com/category-757091697.htm?v=1"><img src="image/product2.jpg"/></a>
+                             </li>
+                             <li>
+                               <a href="http://hanhanbook.taobao.com/category-757091697.htm?v=1"><img src="image/product3.jpg"/></a>
+                             </li>
+                             <li>
+                               <a href="http://hanhanbook.taobao.com/category-757091697.htm?v=1"><img src="image/product4.jpg"/></a>
+                             </li>
+                             <li>
+                               <a href="http://hanhanbook.taobao.com/category-757091697.htm?v=1"><img src="image/product5.jpg"/></a>
+                             </li>
+                        </ul>
+                        <div id="focus-arr3">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                        <ul id="focus-cont3">
+                            <li><a href="http://thebabyone.taobao.com/?v=1"><img src="image/one baby.jpg"/></a></li>
+                        </ul>
+                        <div id="focus-arr4">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                        <ul id="focus-cont4">
+                            <li><a href="http://product.dangdang.com/23520013.html?_ddclickunion=P-224382|ad_type=10|sys_id=1#dd_refer=http%3A%2F%2Fwufazhuce.com%2F"><img src="image/book.png"/></a></li>
+                        </ul>
+             
+                    </div>
+                </div>
+			</div>
+
+			
+		</div>
+		<div class="footer">
+            <div id="state">
+               <h3>App「一个」</h3>
+               <p>每天只为你准备一张图片，一篇文字和一个问答<br/>韩寒主编和监制 原《独唱团》主创成员共同制作</p>
+               <p>
+                   <img src="image/iPhone.png"/>
+                   <img src="image/android.png"/>
+                   <img src="image/weixin.png"/>
+               </p>
+               <p>-也可搜索-<br/>“韩寒一个”或“ONE一个”</p>       
+            </div>
+            <div id="connection">
+               <hr>
+               <p>© 2012-2014<a href="http://www.wufazhuce.com">「ONE · 一个」</a></p>
+               <p>
+                   <a href="http://wufazhuce.com/acercade">关于</a>
+                   <a href="http://wufazhuce.com/politica">用户协议</a>
+                   <a href="http://wufazhuce.com/contacto">联系我们</a>
+               </p>
+               <p>
+                   <a href="http://weibo.com/duchangtuanparty?sudaref=wufazhuce.com">一个App工作室</a>
+                   <a href="http://weibo.com/tianglinzhen">亭林镇工作室</a>
+                   <a href="http://zuicool.com/">最酷ZUICOOL</a>
+               </p>
+               <p>复杂世界里，一个就够了.One is all.</p>
+               <p><a href="http://www.miibeian.gov.cn/">沪IC备13042400号</a></p>     
+            </div>
+             
+        </div>
+	</div>
+
+
+
+	<script type="text/javascript">
+	function byId(id){
+		return document.getElementById(id);
+	 }
+
+	var cont=byId("focus-cont1").getElementsByTagName("li"),
+	    nav=byId("focus_nav").getElementsByTagName("li"),
+	    arr=byId("focus-arr");
+    var index,setTime;
+    
+
+    function autoTabStart(){  //图片自动向右切换
+    	setTime=setInterval(function(){
+    		move(true);
+    	},2000);
+    }
+
+    function autoTabStop(){  //清除图片切换
+    	clearInterval(setTime);
+    }
+
+
+    for(var i=0;i<nav.length;i++){   //导航LI与图片匹配
+    		var nav_item=nav[i];
+    		nav_item.onclick=function(){
+    			for(var j=0;j<nav.length;j++){   
+    				cont[j].style.display="none";
+    				nav[j].style.background="";
+    			}  
+    			for(var m=0;m<nav.length;m++){   //找到当前导航
+		    	 if(nav[m].id==this.id){   //li里无内容该怎么写判断条件？？？？
+		    		index=m;
+		    		break;
+		    	 }
+		        }
+		        cont[index].style.display="block"; 
+		        nav[index].style.background="#fff";
+		    }	    
+    }
+
+
+    function move(flag){   //点击箭头 图片移动
+    	for(var i=0;i<cont.length;i++){  //找到当前第几个
+    		if(cont[i].innerHTML==this.innerHTML){
+    			index=i;
+    			break;
+    		}
+    	}
+    	if(flag==true){  //向前移
+    		if(index<(cont.length-1)){
+    			index++;
+    		}else{
+    			index=0;
+    		}
+    	}else{  //向后移
+    		if(index>0){
+    			index--;
+    		}else{
+    			index=cont.length-1;
+    		}
+    	}
+    	for(var j=0;j<cont.length;j++){
+    		nav[j].style.background=""; //不是当前图片nav颜色为白
+    		cont[j].style.display="none"; //不显示
+    	} 
+    	nav[index].style.background="#fff"; //找到后nav颜色为红
+    	cont[index].style.display="block";  
+    }
+
+    function arrmover(){ //鼠标移来箭头显示
+    	autoTabStop();
+    	arr.style.display="block";
+
+    }
+    function arrmout(){  //鼠标移开箭头消失
+    	autoTabStart();
+    	arr.style.display="none";
+    }
+    </script>
+</body>
+</html>
