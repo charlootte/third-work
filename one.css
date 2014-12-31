@@ -82,7 +82,7 @@ li.navigation{
 #focus-cont1{
   list-style-type: none;
 }
-
+ss
 #focus-cont1 .first-pic,#focus-cont2 .first-pic{
   display: block;
 }
@@ -348,11 +348,7 @@ p.one-articulo-tutio a:hover,p.one-articulo-tutio a:active,.cont_right_left ul a
   padding-bottom: 5px;
 }
 
-#focus-arr2{
-  width:234px;
-  position: absolute;
-  top:45%;
-}
+
 #focus-cont2{
   list-style-type: none;
 }
