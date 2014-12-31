@@ -30,7 +30,6 @@ ul{
 }
 .header ul{
   display: inline-block;
-  list-style-type: none;
   float:right;
   font-size: 16px;
 }
@@ -79,18 +78,15 @@ li.navigation{
   width: 31px;
   height: 41px;
 }
-#focus-cont1{
-  list-style-type: none;
-}
-ss
-#focus-cont1 .first-pic,#focus-cont2 .first-pic{
+
+#focus-cont1 li.first-pic{
   display: block;
 }
-#focus-cont1 li,#focus-cont2 li{
+#focus-cont1 li{
   display: none;
 }
 
-#focus-cont1 li.active,#focus-cont2 li.active{
+#focus-cont1 li.active{
   display: block;
 }
 
@@ -347,13 +343,6 @@ p.one-articulo-tutio a:hover,p.one-articulo-tutio a:active,.cont_right_left ul a
   width:100%;
   padding-bottom: 5px;
 }
-
-
-#focus-cont2{
-  list-style-type: none;
-}
-
-
 
 .footer{
   margin:50px auto 100px;
