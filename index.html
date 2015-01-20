@@ -21,8 +21,8 @@
 			<div class="cont_left">
 				<div class="cont_left_top" onmouseover="arrmover()" onmouseout="arrmout()"> 
 					<div id="focus-arr">
-						<a class="arr-left" onclick="move(false)"></a>
-						<a class="arr-right" onclick="move(true)"></a>
+						<a id="arr-left" ></a>
+						<a id="arr-right"></a>
 					</div>
 					<ul id="focus-cont1">
 						<li class="first-pic">
@@ -275,6 +275,7 @@
 	var cont=byId("focus-cont1").getElementsByTagName("li"),
 	    nav=byId("focus_nav").getElementsByTagName("li"),
 	    arr=byId("focus-arr");
+        
     var index,setTime;
     
 
@@ -335,7 +336,7 @@
     	nav[index].style.background="#fff"; //找到后nav颜色为红
     	cont[index].style.display="block";  
     }
-
+   
     function arrmover(){ //鼠标移来箭头显示
     	autoTabStop();
     	arr.style.display="block";
@@ -345,6 +346,10 @@
     	autoTabStart();
     	arr.style.display="none";
     }
+    var arr_l=byId("arr-left"),
+        arr_r=byId("arr-right");
+    arr_l.addEventListener("click",function(){move(false);},false);
+    arr_r.addEventListener("click",function(){move(true);},false);
     </script>
 </body>
 </html>

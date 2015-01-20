@@ -65,13 +65,13 @@ li.navigation{
   top:50%;
   display: none;
 }
-.arr-left{
+#arr-left{
   display: inline-block;
   background:url(image/arrowleft.png) no-repeat;
   width: 31px;
   height: 41px;
 }
-.arr-right{
+#arr-right{
   display: inline-block;
   background: url(image/arrowright.png) no-repeat;
   float: right;
